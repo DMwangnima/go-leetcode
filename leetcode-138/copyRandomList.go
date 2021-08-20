@@ -1,6 +1,8 @@
 package leetcode_138
 
-import "github.com/DMwangnima/go-leetcode/model"
+import (
+	"github.com/DMwangnima/go-leetcode/model"
+)
 
 // 使用哈希表维持原链表与新链表节点的映射关系
 func copyRandomList(head *model.RandomListNode) *model.RandomListNode {
